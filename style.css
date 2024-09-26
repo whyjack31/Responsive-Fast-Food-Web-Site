@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    margin: 0;
+}
+
+.img{
+    max-width: 325px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.header{
+    padding: 25px 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+
+}
+
+.header_nav{
+
+}
+
+.header_nav a{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.header_nav a.active{
+    opacity: 1;
+}
+
+.header_list{
+   display: flex;
+   gap: 30px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    width: 165px;
+    height: 50px;
+    background-color: #F6762C;
+    border: 7px;
+    transition: opacity 0.4s;
+    border-radius: 6px;
+}
+
+.header_nav a:active{
+    opacity: 1s;
+}
+
+.header_nav a:hover{
+    opacity: 0.8;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.main{
+
+}
+
+.welcome{
+ box-sizing: border-box;
+ min-height: 100vh;
+ margin-top: -100px;
+ padding: 240px 0;
+ background-image: url("welcome-bg.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.welcome_text{
+    width: 550px;
+}
+
+.welcome .container{
+   
+}
+
+.welcome_subtitle{
+  margin-top: 7px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.welcome_title{
+ font-size: 58px;
+}
+
+.welcome_desc{
+ margin: 40px 0;
+ font-size: 18px;
+ opacity: 0.7;
+}
+
+.food-list{
+  padding: 100px 0px;
+}
+
+.container_card{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 340px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.food-list_card{
+ width: 260px;
+ border-radius: 10px;
+ background: #312f30;
+ overflow: hidden;
+ text-align: center;
+}
+
+.food-list_img{
+ max-width: 100%;
+ height: 175px;
+ object-fit: cover;
+}
+
+.food-list_title{
+ font-size: 20px;
+ margin-top: 13px;
+ margin-left: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.food-list_desc{
+    padding: 0 40px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.order{
+ background-color: #312f30;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.order_img{
+ padding: 60px 0;
+ max-width: 470px;
+ padding-left:220px;
+}
+
+.order_text{
+ max-width: 360px;
+ padding-right:300px;
+}
+
+.order_title{
+    margin-bottom: 25px;
+ font-size: 44px;
+}
+
+.order_desc{
+    margin-bottom: 15px;
+ opacity: 0.7;
+}
+
+.order_price{
+ font-weight: 500;
+ font-size: 20px;
+ letter-spacing: 0.1em;
+ color: #F6762C;
+}
+
+.order_old-price{
+ font-weight: 500;
+ letter-spacing: 0.1em;
+ text-decoration-line: line-through;
+ color: #F6762C;
+ opacity: 0.5;
+ margin-left: 4px;
+}
+
+.order .btn{
+ margin-top: 10px;
+}
+
+.product{
+
+}
+
+.container{
+ display: flex;
+}
+
+.product_card{
+ width: 550px;
+ min-height: 300px;
+ padding: 60px 0 60px 290px;
+ box-sizing: border-box;
+}
+
+.product_tittle{
+ font-size: 20px;
+ margin-bottom: 30px;
+}
+
+.product_desc{
+ margin-bottom: 10px;
+ opacity: 0.7;
+} 
+
+.product_price{
+ font-weight: 500;
+ letter-spacing: 0.1em;
+ color: #F6762C;
+}
+
+.product_old-price{
+ text-decoration-line: line-through;
+ opacity: 0.5;
+ color: #F6762C;
+ margin-left: 5px;
+}
+
+.btn-small{
+ font-weight: 500;
+ width: 140px;
+ height: 40px;
+ font-size: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #F6762C;
+ border-radius: 6px;
+ margin-top: 10px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-small:hover{
+    opacity: 0.8;
+}
+
+.card_king{
+    background-image: url("product-1.jpg");
+    background-repeat: no-repeat;
+}
+
